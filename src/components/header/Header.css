@@ -70,25 +70,27 @@
 
 .search-bar {
     width: 100%;
-    display: flex;
     justify-content: space-between;
-    padding-left: 0;
+    padding-left: 120;
 }
 
 .search-left-bar {
     margin-left: 0;
-    width: 60%;
 }
 
 .btn {
-    background-color: rgb(52, 154, 98);
+    background-color: rgb(57, 167, 106);
     color: azure;
+}
+
+.btn:hover{
+    background-color: rgb(57, 167, 106);
+    color: black;
 }
 
 @media (max-width: 768px) {
     .navbar-nav {
         flex-direction: column;
-        align-items: left;
     }
 
     .navbar-brand {

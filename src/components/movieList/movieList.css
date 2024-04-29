@@ -4,7 +4,8 @@
 
 .list__title {
 font-size: 1.75rem;
-margin:  2.5rem;
+margin-top: 55px;
+padding: 30px;
 }
 
 .list__cards {
