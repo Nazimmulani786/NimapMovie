@@ -1,32 +1,3 @@
-// import React from "react";
-
-// const SearchResults = ({ searchResults }) => {
-//   return (
-//     <div className="search-results-container">
-//       <div className="search-results">
-//         {searchResults.map((movie) => (
-//           <div key={movie.id} className="movie">
-//             {movie.poster_path && (
-//               <img
-//                 src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
-//                 alt={movie.title}
-//                 className="movie-poster"
-//               />
-//             )}
-//             <div className="movie-details">
-//               <h2>{movie.title}</h2>
-//               <p>{movie.overview}</p>
-//             </div>
-//           </div>
-//         ))}
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default SearchResults;
-
-
 import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import SearchResults from "./Search.js";
